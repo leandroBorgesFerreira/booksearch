@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f91353d-2112-4ebf-b7fb-4e50f154b6ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/domain/Book.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/domain/Page.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/Functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/Functions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,21 +92,21 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="489" y="300" width="464" height="682" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1587750957802" />
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1587752202227">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1587752428624">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1587752202227" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1587752202227">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1587752428624" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1587752428624">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1587752202227" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1587752202226">
+    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1587752428624" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1587752428623">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1587752202226" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1587752202227">
+    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1587752428623" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1587752428624">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1587752202227" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1587752428624" />
   </component>
 </project>

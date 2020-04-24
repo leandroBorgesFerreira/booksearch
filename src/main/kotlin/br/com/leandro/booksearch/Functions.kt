@@ -26,7 +26,10 @@ private fun relevantPage(page: Int): Page =
             Line(2, kittyIpsum()),
             Line(3, kittyIpsum()),
             Line(4, kittyIpsum()),
-            Line(5, relevantContent())
+            Line(5, relevantContent()),
+            Line(6, kittyIpsum()),
+            Line(7, kittyIpsum()),
+            Line(8, kittyIpsum())
         )
     )
 
