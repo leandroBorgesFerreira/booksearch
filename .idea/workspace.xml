@@ -5,6 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/Functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/Functions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/domain/Book.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/book/domain/Book.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/domain/Line.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/book/domain/Line.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/domain/Page.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/book/domain/Page.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +54,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="br.com.leandro.booksearch.indexing" />
+      <recent name="br.com.leandro.booksearch.search.modeling" />
       <recent name="br.com.leandro.booksearch.domain" />
     </key>
   </component>
@@ -88,25 +93,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="489" y="300" width="464" height="682" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1587750957802">
+    <state x="223" y="572" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587752542468">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="489" y="300" width="464" height="682" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1587750957802" />
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1587752428624">
+    <state x="223" y="572" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1587752542468" />
+    <state x="427" y="325" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587754300066">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1587752428624" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1587752428624">
+    <state x="427" y="325" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1587754300066" />
+    <state x="458" y="397" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587759828898">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1587752428624" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1587752428623">
+    <state x="458" y="397" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1587759828898" />
+    <state x="489" y="300" width="520" height="682" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1587754290985">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1587752428623" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1587752428624">
+    <state x="489" y="300" width="520" height="682" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1587754290985" />
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1587761768799">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1587752428624" />
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1587761768799" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1587761768798">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1587761768798" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1587761768798">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1587761768798" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1587761768798">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1587761768798" />
   </component>
 </project>

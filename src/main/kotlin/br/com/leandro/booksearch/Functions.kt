@@ -1,11 +1,11 @@
 package br.com.leandro.booksearch
 
-import br.com.leandro.booksearch.domain.Book
-import br.com.leandro.booksearch.domain.Line
-import br.com.leandro.booksearch.domain.Page
+import br.com.leandro.booksearch.book.domain.Book
+import br.com.leandro.booksearch.book.domain.Line
+import br.com.leandro.booksearch.book.domain.Page
 
 //reference: https://kitty-ipsum.com/
-private fun kittyIpsum(): String = "Miav meogre miaou mjá miáú. Miav miav miauw miauw niaou. Miyav nyā mi'au νιάου mňau miav miáú"
+private fun kittyIpsum(): List<String> = "Miav meogre miaou mjá miáú. Miav miav miauw miauw niaou. Miyav nyā mi'au νιάου mňau miav miáú".split(" ")
 
 private fun kittyContent(): List<Line> =
     listOf(
@@ -15,7 +15,7 @@ private fun kittyContent(): List<Line> =
         Line(4, kittyIpsum())
     )
 
-private fun relevantContent(): String = "Are you looking for me??"
+private fun relevantContent(): List<String> = "Are you looking for me??".split(" ")
 
 private fun kittyPage(page: Int) = Page(page, kittyContent())
 
