@@ -1,4 +1,4 @@
-package br.com.leandro.booksearch
+package br.com.leandro.booksearch.datageneration
 
 import br.com.leandro.booksearch.book.domain.Book
 import br.com.leandro.booksearch.book.domain.Line
