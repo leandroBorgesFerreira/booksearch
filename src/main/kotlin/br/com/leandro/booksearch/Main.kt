@@ -5,6 +5,7 @@ import br.com.leandro.booksearch.datageneration.kittyBook
 import br.com.leandro.booksearch.indexing.WordPosition
 import br.com.leandro.booksearch.indexing.parseIndexes
 import br.com.leandro.booksearch.indexing.toHumanString
+import br.com.leandro.booksearch.search.findFirstSentence
 import br.com.leandro.booksearch.search.findSentence
 
 //Type the sentence you wanna search here!!
@@ -16,13 +17,20 @@ fun main() {
 //    printBookOnConsole(book)
 //    printPositionsDictionary(indexes)
 
-    val findResult: List<List<WordPosition>> = findSentence(SEARCH_SENTENCE, indexes)
+//    val findResult: List<List<WordPosition>> = findSentence(SEARCH_SENTENCE, indexes)
+//
+//    if (findResult.isEmpty()) {
+//        println("No results found!")
+//    } else {
+//        printResults(findResult)
+//    }
 
-    if (findResult.isEmpty()) {
-        println("No results found!")
-    } else {
-        printResults(findResult)
-    }
+    findFirstSentence(SEARCH_SENTENCE, indexes)
+        .let(::parseAnswer)
+        .let { answer ->
+            println("--- Answer ---")
+            println(answer)
+        }
 }
 
 private fun printBookOnConsole(book: Book) {
@@ -49,3 +57,12 @@ private fun printResults(findResult: List<List<WordPosition>>) {
     }
 }
 
+private fun parseAnswer(wordPositions: List<WordPosition>) : String {
+    val page = wordPositions.first().page
+    val line = wordPositions.first().line
+
+    val firstPosition = wordPositions.first().position
+    val lastPosition = wordPositions.last().position
+
+    return "Page - $page, Line: $line, from position: $firstPosition to $lastPosition"
+}

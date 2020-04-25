@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f91353d-2112-4ebf-b7fb-4e50f154b6ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/search/Search.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/Functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/datageneration/DataGeneration.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/search/Search.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/search/Search.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1b21VdlAME4xDAiVDDilLnjPw2C" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="compactDirectories" value="true" />
@@ -66,7 +65,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="br.com.leandro.booksearch.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="br.com.leandro.booksearch.MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="booksearch.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -115,21 +114,81 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="489" y="300" width="520" height="682" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1587754290985" />
-    <state width="1878" height="230" key="GridCell.Tab.0.bottom" timestamp="1587763203101">
+    <state x="723" y="265" key="#xdebugger.evaluate" timestamp="1587767974830">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="230" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1587763203101" />
-    <state width="1878" height="230" key="GridCell.Tab.0.center" timestamp="1587763203100">
+    <state x="723" y="265" key="#xdebugger.evaluate/0.23.1920.1057@0.23.1920.1057" timestamp="1587767974830" />
+    <state width="1878" height="357" key="GridCell.Tab.0.bottom" timestamp="1587768509533">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="230" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1587763203100" />
-    <state width="1878" height="230" key="GridCell.Tab.0.left" timestamp="1587763203100">
+    <state width="1878" height="357" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1587768509533" />
+    <state width="1878" height="357" key="GridCell.Tab.0.center" timestamp="1587768509533">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="230" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1587763203100" />
-    <state width="1878" height="230" key="GridCell.Tab.0.right" timestamp="1587763203101">
+    <state width="1878" height="357" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1587768509533" />
+    <state width="1878" height="357" key="GridCell.Tab.0.left" timestamp="1587768509533">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="230" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1587763203101" />
+    <state width="1878" height="357" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1587768509533" />
+    <state width="1878" height="357" key="GridCell.Tab.0.right" timestamp="1587768509533">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1587768509533" />
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1587768509535">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1587768509535" />
+    <state width="1878" height="357" key="GridCell.Tab.1.center" timestamp="1587768509534">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1587768509534" />
+    <state width="1878" height="357" key="GridCell.Tab.1.left" timestamp="1587768509534">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1587768509534" />
+    <state width="1878" height="357" key="GridCell.Tab.1.right" timestamp="1587768509534">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1587768509534" />
+    <state x="616" y="386" key="com.intellij.ide.util.TipDialog" timestamp="1587815429786">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="616" y="386" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1587815429786" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/search/Search.kt</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/search/Search.kt</url>
+          <line>22</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/search/Search.kt</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/Main.kt</url>
+          <line>27</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/search/Search.kt</url>
+          <line>25</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/search/Search.kt</url>
+          <line>47</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
