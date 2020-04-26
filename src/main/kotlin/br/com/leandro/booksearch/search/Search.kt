@@ -25,26 +25,20 @@ fun findFirstSentence(sentence: String, indexes: Map<String, List<WordPosition>>
     words.forEach { word ->
         val firstPosition: WordPosition? = indexes[word]?.get(0) //Primeira posição em que a palavra aparece
 
-        if (firstPosition == null) {
-            //A palavra não está indexada, retorna uma lista vazia
-            return emptyList()
-        } else { //A palavra está indexada
-            if (positionsAnswer.isEmpty()) { //Se essa é a primeira palavra, basta colocar na lista de resposta
+        when {
+            firstPosition == null -> return emptyList()
+
+            positionsAnswer.isEmpty() || isNextWord(positionsAnswer.last(), firstPosition) ->
                 positionsAnswer.add(firstPosition)
-            } else { //Precisa ver se essa é a próxima palavra
-                if(isNextWord(positionsAnswer.last(), firstPosition)) {
-                    positionsAnswer.add(firstPosition)
-                } else {
-                    return emptyList()
-                }
-            }
+
+            else -> return emptyList()
         }
     }
 
     return positionsAnswer
 }
 
-private fun isNextWord(wordPosition: WordPosition, nexWordPosition: WordPosition) : Boolean =
+private fun isNextWord(wordPosition: WordPosition, nexWordPosition: WordPosition): Boolean =
     wordPosition.page == nexWordPosition.page &&
             wordPosition.line == nexWordPosition.line &&
             wordPosition.position == (nexWordPosition.position - 1)

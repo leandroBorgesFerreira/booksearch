@@ -11,9 +11,7 @@ private fun parseBook(book: Book): List<Pair<String, WordPosition>> =
                 word to WordPosition(pageNumber, lineNumber, positionNumber)
             }
         }
-    }
-        .flatten()
-        .flatten()
+    }.flatten().flatten()
 
 //Instead of book, a InputStream would be the correct parameters
 fun parseIndexes(book: Book): Map<String, List<WordPosition>> {
