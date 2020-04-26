@@ -2,22 +2,6 @@ package br.com.leandro.booksearch.search
 
 import br.com.leandro.booksearch.indexing.WordPosition
 
-//Todo this is a hard one o.O
-fun findSentence(sentence: String, indexes: Map<String, List<WordPosition>>): List<List<WordPosition>> {
-    return emptyList()
-//    var currentPositions: MutableList<WordPosition> = mutableListOf()
-//
-//    sentence.forEach { word ->
-//        val positionList: List<WordPosition>? = indexes[word]
-//
-//        if (positionList == null) {
-//            return emptyList()
-//        } else {
-//
-//        }
-//    }
-}
-
 fun findFirstSentence(sentence: String, indexes: Map<String, List<WordPosition>>): List<WordPosition> {
     val words = sentence.split(" ")
     val positionsAnswer: MutableList<WordPosition> = mutableListOf()
