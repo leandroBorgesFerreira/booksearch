@@ -1,6 +1,6 @@
 package br.com.leandro.booksearch.fileio
 
-import br.com.leandro.booksearch.book.domain.Book
+import br.com.leandro.booksearch.domain.Book
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import java.io.File

@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="3f91353d-2112-4ebf-b7fb-4e50f154b6ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/search/Search.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/search/Search.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/book/domain/Book.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/domain/Book.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/book/domain/Line.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/domain/Line.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/book/domain/Page.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/domain/Page.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/datageneration/DataGeneration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/datageneration/DataGeneration.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/fileio/Filesio.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/fileio/Filesio.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/indexing/BookReader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/indexing/BookReader.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +48,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="compactDirectories" value="true" />
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -94,9 +102,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="572" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587752542468">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="320" y="128" key="#Project_Structure" timestamp="1587942470804">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="320" y="128" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1587942470804" />
+    <state x="167" y="479" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1587942079924">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="167" y="479" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.877@0.23.1440.877" timestamp="1587942079924" />
     <state x="223" y="572" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1587752542468" />
     <state x="427" y="325" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587754300066">
       <screen x="0" y="23" width="1920" height="1057" />
@@ -169,7 +182,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/Main.kt</url>
-          <line>58</line>
+          <line>56</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>

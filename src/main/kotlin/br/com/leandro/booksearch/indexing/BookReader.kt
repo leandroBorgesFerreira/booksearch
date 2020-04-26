@@ -1,6 +1,6 @@
 package br.com.leandro.booksearch.indexing
 
-import br.com.leandro.booksearch.book.domain.Book
+import br.com.leandro.booksearch.domain.Book
 
 
 //Problem: Everything is allocated in memory here - InputStream would solve this problem
