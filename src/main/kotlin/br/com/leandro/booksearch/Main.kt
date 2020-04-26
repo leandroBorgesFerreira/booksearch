@@ -6,7 +6,6 @@ import br.com.leandro.booksearch.indexing.WordPosition
 import br.com.leandro.booksearch.indexing.parseIndexes
 import br.com.leandro.booksearch.indexing.toHumanString
 import br.com.leandro.booksearch.search.findFirstSentence
-import br.com.leandro.booksearch.search.findSentence
 
 //Type the sentence you wanna search here!!
 private const val SEARCH_SENTENCE = "Are you looking for"
