@@ -7,8 +7,8 @@ fun findFirstSentence(sentence: String, indexes: Map<String, List<WordPosition>>
     val positionsAnswer: MutableList<WordPosition> = mutableListOf()
 
     words.forEach { word ->
-        val firstPosition: WordPosition? = indexes[word]?.get(0) //Primeira posição em que a palavra aparece
-
+        val firstPosition: WordPosition? = indexes[word]?.get(0) 
+                   
         when {
             firstPosition == null -> return emptyList()
 
