@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f91353d-2112-4ebf-b7fb-4e50f154b6ad" name="Default Changelist" comment="" />
+    <list default="true" id="3f91353d-2112-4ebf-b7fb-4e50f154b6ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +31,7 @@
       <list>
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -45,21 +48,46 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/kotlin" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.leandro.booksearch.search" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="br.com.leandro.booksearch.indexing" />
       <recent name="br.com.leandro.booksearch.search.modeling" />
       <recent name="br.com.leandro.booksearch.domain" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/datageneration" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SearchKtTest.test if search doesn't just positions">
+    <configuration name="SearchKtTest.test if search doesn't just positions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="booksearch.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.leandro.booksearch.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.leandro.booksearch.search" />
+      <option name="MAIN_CLASS_NAME" value="br.com.leandro.booksearch.search.SearchKtTest" />
+      <option name="METHOD_NAME" value="test if search doesn't just positions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="br.com.leandro.booksearch.MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="booksearch.main" />
       <option name="VM_PARAMETERS" />
@@ -75,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SearchKtTest.test if search doesn't just positions" />
         <item itemvalue="Kotlin.br.com.leandro.booksearch.MainKt" />
       </list>
     </recent_temporary>
@@ -118,50 +147,63 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="723" y="265" key="#xdebugger.evaluate/0.23.1920.1057@0.23.1920.1057" timestamp="1587767974830" />
-    <state width="1398" height="290" key="GridCell.Tab.0.bottom" timestamp="1587942957726">
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1587944073187">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="290" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587942957726" />
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587944073187" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1587819394018" />
-    <state width="1398" height="290" key="GridCell.Tab.0.center" timestamp="1587942957725">
+    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1587944073186">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="290" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587942957725" />
+    <state width="1398" height="285" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587944073186" />
     <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1920.1057@0.23.1920.1057" timestamp="1587819394017" />
-    <state width="1398" height="290" key="GridCell.Tab.0.left" timestamp="1587942957724">
+    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1587944073186">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="290" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587942957724" />
+    <state width="1398" height="285" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587944073186" />
     <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1920.1057@0.23.1920.1057" timestamp="1587819394016" />
-    <state width="1398" height="290" key="GridCell.Tab.0.right" timestamp="1587942957725">
+    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1587944073187">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="290" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587942957725" />
+    <state width="1398" height="285" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587944073187" />
     <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1920.1057@0.23.1920.1057" timestamp="1587819394017" />
-    <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1587939536099">
+    <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1587944073188">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587939536099" />
+    <state width="1398" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587944073188" />
     <state width="1878" height="357" key="GridCell.Tab.1.bottom/0.23.1920.1057@0.23.1920.1057" timestamp="1587768509535" />
-    <state width="1398" height="285" key="GridCell.Tab.1.center" timestamp="1587939536098">
+    <state width="1398" height="285" key="GridCell.Tab.1.center" timestamp="1587944073187">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1587939536098" />
+    <state width="1398" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1587944073187" />
     <state width="1878" height="357" key="GridCell.Tab.1.center/0.23.1920.1057@0.23.1920.1057" timestamp="1587768509534" />
-    <state width="1398" height="285" key="GridCell.Tab.1.left" timestamp="1587939536098">
+    <state width="1398" height="285" key="GridCell.Tab.1.left" timestamp="1587944073187">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1587939536098" />
+    <state width="1398" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1587944073187" />
     <state width="1878" height="357" key="GridCell.Tab.1.left/0.23.1920.1057@0.23.1920.1057" timestamp="1587768509534" />
-    <state width="1398" height="285" key="GridCell.Tab.1.right" timestamp="1587939536099">
+    <state width="1398" height="285" key="GridCell.Tab.1.right" timestamp="1587944073188">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1587939536099" />
+    <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1587944073188" />
     <state width="1878" height="357" key="GridCell.Tab.1.right/0.23.1920.1057@0.23.1920.1057" timestamp="1587768509534" />
-    <state x="616" y="386" key="com.intellij.ide.util.TipDialog" timestamp="1587815429786">
+    <state x="755" y="338" key="chooseDestDirectoryDialog" timestamp="1588082639981">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="755" y="338" key="chooseDestDirectoryDialog/1920.122.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1588082639981" />
+    <state x="616" y="386" key="com.intellij.ide.util.TipDialog" timestamp="1588082531229">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="616" y="386" key="com.intellij.ide.util.TipDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1587815429786" />
+    <state x="616" y="386" key="com.intellij.ide.util.TipDialog/1920.122.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1588082531229" />
+    <state x="703" y="288" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1588082640125">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="703" y="288" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/1920.122.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1588082640125" />
+    <state x="625" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1588082572113">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="625" y="258" width="670" height="676" key="search.everywhere.popup/1920.122.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1588082572113" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -173,7 +215,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/br/com/leandro/booksearch/Main.kt</url>
-          <line>56</line>
+          <line>55</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
